@@ -38,7 +38,7 @@ realclean: clean
 	rm -rf ./cache
 
 test: test/bin/helm
-	PATH="${PWD}/bin:${PWD}/test/bin:${PATH}" GO111MODULES=on go test ${TEST_FLAGS} $(shell go list ./... | grep -v "^github.com/weaveworks/flux/vendor" | sort -u)
+	PATH="${PWD}/bin:${PWD}/test/bin:${PATH}" GO111MODULES=on go test ${TEST_FLAGS} $(shell go list ./... | grep -v "^github.com/fluxcd/flux/vendor" | sort -u)
 
 e2e: test/bin/helm test/bin/kubectl build/.helm-operator.done
 	PATH="${PWD}/test/bin:${PATH}" CURRENT_OS_ARCH=$(CURRENT_OS_ARCH) test/e2e/run.sh

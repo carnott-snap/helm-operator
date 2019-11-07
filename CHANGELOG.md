@@ -176,7 +176,7 @@ This release was made possible by contributions from @jfrndz, @adrian,
 [#2312]: https://github.com/fluxcd/flux/pull/2312
 [#2316]: https://github.com/fluxcd/flux/pull/2316
 [#2317]: https://github.com/fluxcd/flux/pull/2317
-[helm 0.10.1 crd]: https://github.com/weaveworks/flux/blob/release/helm-0.10.x/deploy-helm/flux-helm-release-crd.yaml
+[helm 0.10.1 crd]: https://github.com/fluxcd/flux/blob/release/helm-0.10.x/deploy-helm/flux-helm-release-crd.yaml
 
 ## 0.10.0 (2019-07-10)
 
@@ -232,14 +232,14 @@ promote the Helm operator to its first GA `1.0.0` release.
 Many thanks to @adrian, @2opremio, @semyonslepov, @gtseres, @squaremo, @stefanprodan, @kingdonb, @ncabatoff,
 @dholbach, @cristian-radu, @simonmacklin, @hiddeco for contributing to this release.
 
-[#2006]: https://github.com/weaveworks/flux/pull/2006
-[#2123]: https://github.com/weaveworks/flux/pull/2123
-[#2191]: https://github.com/weaveworks/flux/pull/2191
-[#2194]: https://github.com/weaveworks/flux/pull/2194
-[#2213]: https://github.com/weaveworks/flux/pull/2213
-[#2220]: https://github.com/weaveworks/flux/pull/2220
-[helm 0.10.0 crd]: https://github.com/weaveworks/flux/blob/release/helm-0.10.x/deploy-helm/flux-helm-release-crd.yaml
-[rollback docs]: https://github.com/weaveworks/flux/blob/release/helm-0.10.x/site/helm-integration.md#rollbacks
+[#2006]: https://github.com/fluxcd/flux/pull/2006
+[#2123]: https://github.com/fluxcd/flux/pull/2123
+[#2191]: https://github.com/fluxcd/flux/pull/2191
+[#2194]: https://github.com/fluxcd/flux/pull/2194
+[#2213]: https://github.com/fluxcd/flux/pull/2213
+[#2220]: https://github.com/fluxcd/flux/pull/2220
+[helm 0.10.0 crd]: https://github.com/fluxcd/flux/blob/release/helm-0.10.x/deploy-helm/flux-helm-release-crd.yaml
+[rollback docs]: https://github.com/fluxcd/flux/blob/release/helm-0.10.x/site/helm-integration.md#rollbacks
 [fluxcd DockerHub]: https://hub.docker.com/r/weaveworks/helm-operator/
 
 ## 0.9.2 (2019-06-13)
@@ -269,11 +269,11 @@ Many thanks to @adrian, @2opremio, @semyonslepov, @gtseres, @squaremo, @stefanpr
 Thanks @2opremio, @willholley ,@runningman84, @stefanprodan, @squaremo,
 @rossf7, @hiddeco for contributing.
 
-[#2081]: https://github.com/weaveworks/flux/pull/2081
-[#2095]: https://github.com/weaveworks/flux/pull/2095
-[#2103]: https://github.com/weaveworks/flux/pull/2103
-[#2142]: https://github.com/weaveworks/flux/pull/2142
-[#2146]: https://github.com/weaveworks/flux/pull/2146
+[#2081]: https://github.com/fluxcd/flux/pull/2081
+[#2095]: https://github.com/fluxcd/flux/pull/2095
+[#2103]: https://github.com/fluxcd/flux/pull/2103
+[#2142]: https://github.com/fluxcd/flux/pull/2142
+[#2146]: https://github.com/fluxcd/flux/pull/2146
 
 ## 0.9.1 (2019-05-09)
 
@@ -288,7 +288,7 @@ Thanks @2opremio, @willholley ,@runningman84, @stefanprodan, @squaremo,
 Thanks to @puzza007, @squaremo, @2opremio, @stefanprodan, @hiddeco
 for reporting the issue, patching and reviewing it.
 
-[#2027]: https://github.com/weaveworks/flux/pull/2027
+[#2027]: https://github.com/fluxcd/flux/pull/2027
 
 ## 0.9.0 (2019-05-08)
 
@@ -333,15 +333,15 @@ Thanks @brezerk, @jpds, @stefanprodan, @2opremio, @hiddeco, @squaremo,
 to this release, and anyone who I have missed during this manual
 labour.
 
-[#1906]: https://github.com/weaveworks/flux/pull/1906
-[#1929]: https://github.com/weaveworks/flux/pull/1929
-[#1945]: https://github.com/weaveworks/flux/pull/1945
-[#1949]: https://github.com/weaveworks/flux/pull/1949
-[#1950]: https://github.com/weaveworks/flux/pull/1950
-[#1956]: https://github.com/weaveworks/flux/pull/1956
-[#1971]: https://github.com/weaveworks/flux/pull/1971
-[#2005]: https://github.com/weaveworks/flux/pull/2005
-[#2008]: https://github.com/weaveworks/flux/pull/2008
+[#1906]: https://github.com/fluxcd/flux/pull/1906
+[#1929]: https://github.com/fluxcd/flux/pull/1929
+[#1945]: https://github.com/fluxcd/flux/pull/1945
+[#1949]: https://github.com/fluxcd/flux/pull/1949
+[#1950]: https://github.com/fluxcd/flux/pull/1950
+[#1956]: https://github.com/fluxcd/flux/pull/1956
+[#1971]: https://github.com/fluxcd/flux/pull/1971
+[#2005]: https://github.com/fluxcd/flux/pull/2005
+[#2008]: https://github.com/fluxcd/flux/pull/2008
 
 ## 0.8.0 (2019-04-11)
 
@@ -371,11 +371,11 @@ recommend running Tiller `>=2.13.0` from now on.
  - Use Helm operator image from build in e2e tests
    [weaveworks/flux#1910][#1910]
 
-[#1828]: https://github.com/weaveworks/flux/pull/1828
-[#1865]: https://github.com/weaveworks/flux/pull/1865
-[#1908]: https://github.com/weaveworks/flux/pull/1908
-[#1909]: https://github.com/weaveworks/flux/pull/1909
-[#1910]: https://github.com/weaveworks/flux/pull/1910
+[#1828]: https://github.com/fluxcd/flux/pull/1828
+[#1865]: https://github.com/fluxcd/flux/pull/1865
+[#1908]: https://github.com/fluxcd/flux/pull/1908
+[#1909]: https://github.com/fluxcd/flux/pull/1909
+[#1910]: https://github.com/fluxcd/flux/pull/1910
 
 ### Thanks
 
@@ -389,41 +389,41 @@ and bringing us one step closer to a GA-release.
 
  - Prevent panic on `.spec.values` in `HelmRelease` due to merge
    attempt on uninitialized value
-   [weaveworks/flux#1867](https://github.com/weaveworks/flux/pull/1867)
+   [weaveworks/flux#1867](https://github.com/fluxcd/flux/pull/1867)
 
 ## 0.7.0 (2019-03-25)
 
 ### Bug fixes
 
  - Run signal listener in a goroutine instead of deferring
-   [weaveworks/flux#1680](https://github.com/weaveworks/flux/pull/1680)
+   [weaveworks/flux#1680](https://github.com/fluxcd/flux/pull/1680)
  - Make chart operations insensitive to (missing) slashes in Helm
    repository URLs
-   [weaveworks/flux#1735](https://github.com/weaveworks/flux/pull/1735)
+   [weaveworks/flux#1735](https://github.com/fluxcd/flux/pull/1735)
  - Annotating resources outside of the `HelmRelease` namespace
-   [weaveworks/flux#1757](https://github.com/weaveworks/flux/pull/1757)
+   [weaveworks/flux#1757](https://github.com/fluxcd/flux/pull/1757)
 
 ### Improvements
 
  - The `HelmRelease` CRD now supports a `skipDepUpdate` to instruct the
    operator to not update dependencies for charts from a git source
-   [weaveworks/flux#1712](https://github.com/weaveworks/flux/pull/1712)
-   [weaveworks/flux#1823](https://github.com/weaveworks/flux/pull/1823)
+   [weaveworks/flux#1712](https://github.com/fluxcd/flux/pull/1712)
+   [weaveworks/flux#1823](https://github.com/fluxcd/flux/pull/1823)
  - Azure DevOps Git host support
-   [weaveworks/flux#1729](https://github.com/weaveworks/flux/pull/1729)
+   [weaveworks/flux#1729](https://github.com/fluxcd/flux/pull/1729)
  - The UID of the `HelmRelease` is now used as dry run release name
-   [weaveworks/flux#1745](https://github.com/weaveworks/flux/pull/1745)
+   [weaveworks/flux#1745](https://github.com/fluxcd/flux/pull/1745)
  - Removed deprecated `--git-poll-interval` flag
-   [weaveworks/flux#1757](https://github.com/weaveworks/flux/pull/1757)
+   [weaveworks/flux#1757](https://github.com/fluxcd/flux/pull/1757)
  - Sync hook to instruct the operator to refresh Git mirrors
-   [weaveworks/flux#1776](https://github.com/weaveworks/flux/pull/1776)
+   [weaveworks/flux#1776](https://github.com/fluxcd/flux/pull/1776)
  - Docker image is now based on Alpine `3.9`
-   [weaveworks/flux#1801](https://github.com/weaveworks/flux/pull/1801)
+   [weaveworks/flux#1801](https://github.com/fluxcd/flux/pull/1801)
  - `.spec.values` in the `HelmRelease` CRD is no longer mandatory
-   [weaveworks/flux#1824](https://github.com/weaveworks/flux/pull/1824)
+   [weaveworks/flux#1824](https://github.com/fluxcd/flux/pull/1824)
  - With `valuesFrom` it is now possible to load values from secrets,
    config maps and URLs
-   [weaveworks/flux#1836](https://github.com/weaveworks/flux/pull/1836)
+   [weaveworks/flux#1836](https://github.com/fluxcd/flux/pull/1836)
 
 ### Thanks
 
@@ -436,7 +436,7 @@ contributions.
 ### Improvements
 
  - Add option to limit the Helm operator to a single namespace
-   [weaveworks/flux#1664](https://github.com/weaveworks/flux/pull/1664)
+   [weaveworks/flux#1664](https://github.com/fluxcd/flux/pull/1664)
 
 ### Thanks
 
@@ -451,11 +451,11 @@ have been possible -- thanks to all of you!
 
   - `HelmRelease` now has a `resetValues` field which when set to `true`
     resets the values to the ones built into the chart
-    [weaveworks/flux#1628](https://github.com/weaveworks/flux/pull/1628)
+    [weaveworks/flux#1628](https://github.com/fluxcd/flux/pull/1628)
   - The operator now exposes a HTTP webserver (by default on port
     `:3030`) with Prometheus metrics on `/metrics` and a health check
     endpoint on `/healthz`
-    [weaveworks/flux#1653](https://github.com/weaveworks/flux/pull/1653)
+    [weaveworks/flux#1653](https://github.com/fluxcd/flux/pull/1653)
 
 ### Thanks
 
@@ -467,26 +467,26 @@ A thousand thanks to @davidkarlsen, @hiddeco, @ncabatoff, @stefanprodan,
 ### Bug fixes
 
   - Respect proxy env entries for git operations
-    [weaveworks/flux#1556](https://github.com/weaveworks/flux/pull/1556)
+    [weaveworks/flux#1556](https://github.com/fluxcd/flux/pull/1556)
   - Reimplement git timeout after accidentally removing it in `0.5.0`
-    [weaveworks/flux#1565](https://github.com/weaveworks/flux/pull/1565)
+    [weaveworks/flux#1565](https://github.com/fluxcd/flux/pull/1565)
   - Mark `--git-poll-interval` flag as deprecated
-    [weaveworks/flux#1565](https://github.com/weaveworks/flux/pull/1565)
+    [weaveworks/flux#1565](https://github.com/fluxcd/flux/pull/1565)
   - Only update chart dependencies if a `requirements.yaml` exists
-    weaveworks/flux{[#1561](https://github.com/weaveworks/flux/pull/1561), [#1606](https://github.com/weaveworks/flux/pull/1606)}
+    weaveworks/flux{[#1561](https://github.com/fluxcd/flux/pull/1561), [#1606](https://github.com/fluxcd/flux/pull/1606)}
     
 ### Improvements
 
   - `HelmRelease` now has a `timeout` field (defaults to `300s`),
     giving you control over the amount of time it may take for Helm to
     install or upgrade your chart
-    [weaveworks/flux#1566](https://github.com/weaveworks/flux/pull/1566)
+    [weaveworks/flux#1566](https://github.com/fluxcd/flux/pull/1566)
   - The Helm operator [flag docs](./site/helm-operator.md#setup-and-configuration)
     have been updated
-    [weaveworks/flux#1594](https://github.com/weaveworks/flux/pull/1594)
+    [weaveworks/flux#1594](https://github.com/fluxcd/flux/pull/1594)
   - Added tests to ensure Helm dependencies update behaviour is always as
     expected
-    [weaveworks/flux#1562](https://github.com/weaveworks/flux/pull/1562)
+    [weaveworks/flux#1562](https://github.com/fluxcd/flux/pull/1562)
 
 ### Thanks
 
@@ -499,7 +499,7 @@ Thanks to @stephenmoloney, @sfrique, @mgazza, @stefanprodan, @squaremo,
 
   - Helm releases will now stay put when an upgrade fails or the
     Kubernetes API connectivity is flaky, instead of getting purged
-    [weaveworks/flux#1530](https://github.com/weaveworks/flux/pull/1530)
+    [weaveworks/flux#1530](https://github.com/fluxcd/flux/pull/1530)
 
 ### Thanks
 
@@ -531,7 +531,7 @@ operator).
 ### Improvements
 
 All of these were added in
-[weaveworks/flux#1382](https://github.com/weaveworks/flux/pull/1382).
+[weaveworks/flux#1382](https://github.com/fluxcd/flux/pull/1382).
 
 See the [Helm operator guide](./site/helm-integration.md) for details.
 
@@ -569,13 +569,13 @@ to older versions of Tiller.
    instructions, and adding the argument `--tiller-tls-hostname` which
    lets you specify the hostname that TLS should expect in the
    certificate
-   [weaveworks/flux#1484](https://github.com/weaveworks/flux/pull/1484)
+   [weaveworks/flux#1484](https://github.com/fluxcd/flux/pull/1484)
 
 ### Improvements
 
  - You can now create secrets containing a `values.yaml` file, and
    attach them to a `FluxHelmRelease` as additional values to use
-   [weaveworks/flux#1468](https://github.com/weaveworks/flux/pull/1468)
+   [weaveworks/flux#1468](https://github.com/fluxcd/flux/pull/1468)
 
 ### Thanks
 
@@ -597,23 +597,23 @@ switch this behaviour off with the flag `--update-chart-deps=false`.
 ### Bug fixes
 
  - Improve chance of graceful shutdown
-   [weaveworks/flux#1439](https://github.com/weaveworks/flux/pull/1439)
+   [weaveworks/flux#1439](https://github.com/fluxcd/flux/pull/1439)
    and
-   [weaveworks/flux#1438](https://github.com/weaveworks/flux/pull/1438)
+   [weaveworks/flux#1438](https://github.com/fluxcd/flux/pull/1438)
  
 ### Improvements
 
  - The operator now runs `helm dep build` for charts before installing
    or upgrading releases. This will use a lockfile if present, and
    update the dependencies according to `requirements.yaml` otherwise
-   [weaveworks/flux#1450](https://github.com/weaveworks/flux/pull/1450)
+   [weaveworks/flux#1450](https://github.com/fluxcd/flux/pull/1450)
  - A new flag `--git-timeout` controls how long the Helm operator will
    allow for git operations
-   [weaveworks/flux#1416](https://github.com/weaveworks/flux/pull/1416)
+   [weaveworks/flux#1416](https://github.com/fluxcd/flux/pull/1416)
  - The Helm operator image now includes the Helm command-line client,
    which makes it easier to troubleshoot problems using `kubectl exec`
    (as part of
-   [weaveworks/flux#1450](https://github.com/weaveworks/flux/pull/1450))
+   [weaveworks/flux#1450](https://github.com/fluxcd/flux/pull/1450))
 
 ## 0.2.1 (2018-09-17)
 
@@ -623,7 +623,7 @@ If at a later time the chart is fixed, helm-op can't install it anymore because 
 Purging the release after each failed install allows helm-op to keep retrying the install.
 
 - Purge release if install fails
-  [weaveworks/flux#1344](https://github.com/weaveworks/flux/pull/1344)
+  [weaveworks/flux#1344](https://github.com/fluxcd/flux/pull/1344)
 
 ## 0.2.0 (2018-08-23)
 
@@ -635,45 +635,45 @@ This release drops the `-alpha` suffix, but remains <1.0 and should
 
 - Use the same git implementation as fluxd, fixing a number of
   problems with SSH known_hosts and git URLs and so on
-  [weaveworks/flux#1240](https://github.com/weaveworks/flux/pull/1240)
+  [weaveworks/flux#1240](https://github.com/fluxcd/flux/pull/1240)
 - Always check that a chart release will be a change, before releasing
-  [weaveworks/flux#1254](https://github.com/weaveworks/flux/pull/1254)
+  [weaveworks/flux#1254](https://github.com/fluxcd/flux/pull/1254)
 - Add validation to the FluxHelmRelease custom resource definition,
   giving the kind the short name `fhr`
-  [weaveworks/flux#1253](https://github.com/weaveworks/flux/pull/1253)
+  [weaveworks/flux#1253](https://github.com/fluxcd/flux/pull/1253)
 - Detect chart release differences more reliably
-  [weaveworks/flux#1272](https://github.com/weaveworks/flux/pull/1272)
+  [weaveworks/flux#1272](https://github.com/fluxcd/flux/pull/1272)
 - Check for more recent versions and report in logs when out of date
-  [weaveworks/flux#1276](https://github.com/weaveworks/flux/pull/1276)
+  [weaveworks/flux#1276](https://github.com/fluxcd/flux/pull/1276)
 
 See [getting started with
-Helm](https://github.com/weaveworks/flux/blob/master/site/helm/get-started.md)
+Helm](https://github.com/fluxcd/flux/blob/master/site/helm/get-started.md)
 and the [Helm chart
-instructions](https://github.com/weaveworks/flux/blob/master/chart/flux/README.md)
+instructions](https://github.com/fluxcd/flux/blob/master/chart/flux/README.md)
 for information on installing the Flux with the Helm operator.
 
 ## 0.1.1-alpha (2018-07-16)
 
 - Support using TLS connections to Tiller
-  [weaveworks/flux#1200](https://github.com/weaveworks/flux/pull/1200)
+  [weaveworks/flux#1200](https://github.com/fluxcd/flux/pull/1200)
 - Avoid continual, spurious installs in newer Kubernetes
-  [weaveworks/flux#1193](https://github.com/weaveworks/flux/pull/1193)
+  [weaveworks/flux#1193](https://github.com/fluxcd/flux/pull/1193)
 - Make it easier to override SSH config (and `known_hosts`)
-  [weaveworks/flux#1188](https://github.com/weaveworks/flux/pull/1188)
+  [weaveworks/flux#1188](https://github.com/fluxcd/flux/pull/1188)
 - Annotate resources created by a Helm release with the name of the
   FluxHelmRelease custom resource, so they can be linked
-  [weaveworks/flux#1134](https://github.com/weaveworks/flux/pull/1134)
+  [weaveworks/flux#1134](https://github.com/fluxcd/flux/pull/1134)
 - Purge release when FluxHelmRelease is deleted, so restoring the
   resource can succeed
-  [weaveworks/flux#1106](https://github.com/weaveworks/flux/pull/1106)
+  [weaveworks/flux#1106](https://github.com/fluxcd/flux/pull/1106)
 - Correct permissions on baked-in SSH config
-  [weaveworks/flux#1098](https://github.com/weaveworks/flux/pull/1098)
+  [weaveworks/flux#1098](https://github.com/fluxcd/flux/pull/1098)
 - Test coverage for releasesync package
-  [weaveworks/flux#1089](https://github.com/weaveworks/flux/pull/1089)).
+  [weaveworks/flux#1089](https://github.com/fluxcd/flux/pull/1089)).
 
 It is now possible to install Flux and the Helm operator using the
 [helm chart in this
-repository](https://github.com/weaveworks/flux/tree/master/chart/flux).
+repository](https://github.com/fluxcd/flux/tree/master/chart/flux).
 
 ## 0.1.0-alpha (2018-05-01)
 
@@ -685,5 +685,5 @@ First versioned release of the Flux Helm operator. The target features are:
     chart (in git) changes
 
 See
-https://github.com/weaveworks/flux/blob/helm-0.1.0-alpha/site/helm/
+https://github.com/fluxcd/flux/blob/helm-0.1.0-alpha/site/helm/
 for more detailed explanations.

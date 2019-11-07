@@ -46,7 +46,7 @@ import (
 	google_protobuf "github.com/golang/protobuf/ptypes/any"
 	"github.com/google/go-cmp/cmp"
 	"github.com/ncabatoff/go-seq/seq"
-	"k8s.io/api/core/v1"
+	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/util/runtime"
@@ -55,13 +55,13 @@ import (
 	hapi_chart "k8s.io/helm/pkg/proto/hapi/chart"
 	hapi_release "k8s.io/helm/pkg/proto/hapi/release"
 
+	"github.com/fluxcd/flux/pkg/git"
 	helmop "github.com/fluxcd/helm-operator/pkg"
 	helmfluxv1 "github.com/fluxcd/helm-operator/pkg/apis/helm.fluxcd.io/v1"
 	ifclientset "github.com/fluxcd/helm-operator/pkg/client/clientset/versioned"
 	iflister "github.com/fluxcd/helm-operator/pkg/client/listers/helm.fluxcd.io/v1"
 	"github.com/fluxcd/helm-operator/pkg/release"
 	"github.com/fluxcd/helm-operator/pkg/status"
-	"github.com/weaveworks/flux/git"
 )
 
 const (
